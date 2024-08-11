@@ -75,7 +75,7 @@ const HeroSection = () => {
                                 Hire Me
                             </ScrollLink>
                             <a
-                                href="https://docs.google.com/document/d/100PXqSVwdr7KQy6yRWj62m77fgvEDBs6dy2PPsJskZI/edit?usp=sharing"
+                                href="https://red-sandra-72.tiiny.site"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="px-6 py-3 w-full sm:w-fit rounded-full md:mr-4 bg-transparent border-white border-2 text-white text-center hover:bg-darkHover hover:scale-[0.99] transition-all duration-400 ease-in-out "
