@@ -71,20 +71,20 @@ const Navbar = () => {
                                 </span>
                                 <div className="flex gap-4 p-6 border-b-white border-b-2 text-[22px]">
                                     <a
-                                        href="https://www.linkedin.com/in/aashish-dhiman/"
+                                        href="https://www.linkedin.com/in/pratiyushs-singh-380078276/"
                                         target="_blank"
                                         rel="noopener noreferrer"
                                     >
                                         <BsLinkedin />
                                     </a>
                                     <a
-                                        href="https://github.com/aashish-dhiman"
+                                        href="https://github.com/Pratiyush2003/"
                                         target="_blank"
                                         rel="noopener noreferrer"
                                     >
                                         <BsGithub />
                                     </a>
-                                    <a href="mailto:aashishdhiman88@gmail.com">
+                                    <a href="mailto:pratiyushs85@gmail.com">
                                         <HiMailOpen />
                                     </a>
                                 </div>

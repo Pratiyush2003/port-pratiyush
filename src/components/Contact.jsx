@@ -87,7 +87,7 @@ const Contact = () => {
                         I&apos;m actively seeking new opportunities, and I
                         welcome your messages. Whether you have inquiries or
                         simply want to say hello, feel free to reach out. <br />
-                        I&apos;ll try my best to get back to you!
+                       Mail Id : pratiyushs85@gmail.com
                     </p>
                     <div className="flex flex-row gap-5 mt-6">
                         <a
@@ -102,7 +102,7 @@ const Contact = () => {
                             </span>
                         </a>
                         <a
-                            href="https://www.linkedin.com/in/pratiyush-singh-7435172b0/"
+                            href="https://www.linkedin.com/in/pratiyushs-singh-380078276/"
                             className="relative group hover:-translate-y-[2px] transition-all duration-500 ease-in-out "
                             target="_blank"
                             rel="noopener noreferrer"

@@ -49,11 +49,11 @@ const About = () => {
                     animate={
                         inViewContent
                             ? {
-                                  opacity: 1,
-                                  x: 0,
-                                  scale: 1,
-                                  filter: "blur(0px)",
-                              }
+                                opacity: 1,
+                                x: 0,
+                                scale: 1,
+                                filter: "blur(0px)",
+                            }
                             : { opacity: 1, x: -100, scale: 0.8 }
                     }
                     transition={{ duration: 0.8 }}
@@ -154,6 +154,26 @@ const About = () => {
                                             <span>Pursuing</span>
                                         </span>
                                     </div>
+
+                                </motion.li>
+                                <motion.li
+                                    initial={{ opacity: 0 }}
+                                    animate={{ opacity: 1 }}
+                                    transition={{ duration: 1 }}
+                                >
+                                    <h5 className="text-2xl font-[600]">
+                                        Ducat Institute Noida Sec - 63
+                                    </h5>
+                                    <div className="mt-2 flex gap-4 items-center">
+                                        <div className="w-[15px] h-[2px] bg-textWhite "></div>
+                                        <span>
+                                            <p>
+                                                Full Stack Web Development
+                                            </p>
+                                            <span>Completed</span>
+                                        </span>
+                                    </div>
+
                                 </motion.li>
                             </ul>
                         ) : (
@@ -166,20 +186,23 @@ const About = () => {
                                     <h5 className="text-2xl font-[600]">
                                         Full Stack Engineer Intern{" "}
                                         <span className="text-base font-[500]">
-                                            - Four Step Digital
+                                            - Excellence Technosoft Pvt Ltd
                                         </span>
                                     </h5>
                                     <div className="mt-2 flex gap-4 items-center">
                                         <div className="w-[15px] h-[2px] bg-textWhite "></div>
                                         <span>
                                             <p>
-                                                Developing an AI-driven trading platform to facilitate streamlined stock analysis, integrating a financial chatbot and a comprehensive stock dashboard. Utilizing technologies such as Next.js, Typescript, Tailwind CSS, Shadcn UI, Web Socket and NextAuth for seamless functionality.
+                                                I have worked as a React.js and Node.js Developer at Excellence Technosoft Pvt Ltd., gaining 6 months experience. I
+                                                have also completed a certification in MERN Full Stack Development, which has further enhanced my skills in building
+                                                scalable and efficient web applications. During my tenure, I contributed to multiple projects, including Rake,
+                                                Conductly, and Best Prover.
                                             </p>
                                         </span>
                                     </div>
                                     <div className="ml-6 mt-1 text-gray-500 font-medium flex items-center justify-between max-w-[95%]">
                                         <span className="">
-                                            Jan 2024 - Present
+                                            Dec 2025 - Present
                                         </span>
                                         <span className="">Remote</span>
                                     </div>
